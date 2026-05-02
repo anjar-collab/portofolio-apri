@@ -1,0 +1,158 @@
+/* --- Reset & Basic --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background: #333;
+    padding: 15px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* --- Active Menu --- */
+.active {
+    font-weight: bold;
+    background: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* --- Layout --- */
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background: #f4f4f4;
+    padding: 15px;
+}
+
+.main {
+    float: left;
+    width: 75%;
+    padding: 15px;
+}
+
+/* --- Clearfix --- */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* --- Projects Grid --- */
+.project {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+}
+
+.project img {
+    width: 100%;
+}
+
+/* --- Skills Layout --- */
+.skill-box {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.progress {
+    background: #ddd;
+    height: 10px;
+}
+
+.progress-bar {
+    background: green;
+    height: 10px;
+}
+
+/* --- Form --- */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+/* --- Contact Form Button --- */
+button {
+    background: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+/* --- Social Buttons --- */
+.btn {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.fb { background: #3b5998; }
+.wa { background: #25D366; }
+.ig { background: #E1306C; }
+
+.btn:hover {
+    opacity: 0.8;
+}
+/* --- Navigation Styles --- */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: 0.3s; /* efek halus */
+}
+
+/* --- Hover Effect --- */
+nav ul li a:hover {
+    background: rgb(240, 224, 195);
+    color: black;
+    border-radius: 5px;
+}
+
+/* --- Active Menu --- */
+nav ul li a.active {
+    background: orange;
+    color: black;
+    border-radius: 5px;
+}
